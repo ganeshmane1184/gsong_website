@@ -1,0 +1,293 @@
+/* css reset */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+/* Navigation */
+#navbar {
+  position: sticky;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff6f6;
+}
+/* Navigation: logo */
+.logo {
+  display: flex;
+  margin: 5px 20px;
+}
+.logo img {
+  width: 85px;
+  height: 50px;
+  margin: 3px 10px;
+}
+/* Navigation: ul and li style*/
+#navbar ul {
+  display: flex;
+}
+#navbar ul li {
+  list-style: none;
+  font-size: 1.4rem;
+}
+#navbar ul li a {
+  text-decoration: none;
+  color: black;
+  padding: 9px 28px;
+}
+#navbar ul li a:hover {
+  color: red;
+  /* border-radius: 8px; */
+  border-bottom: 2px solid red;
+}
+
+#social-icons {
+  margin-right: 30px;
+}
+#social-icons a {
+  text-decoration: none;
+  padding: 5px 10px;
+}
+#social-icons a i {
+  color: #de3030;
+}
+#social-icons a i:hover {
+  color: rgb(151, 5, 5);
+}
+
+/* Section: Music Info */
+#home-sec {
+  display: flex;
+  flex-direction: initial;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+}
+.home-container h1 {
+  color: black;
+  font-size: 2rem;
+  padding: 16px 24px;
+  display: inline-block;
+  margin-left: 26px;
+  margin-top: 37px;
+}
+.home-container span {
+  color: red;
+  font-weight: bold;
+}
+.home-container p {
+  font-size: 1rem;
+  padding: 17px 50px;
+  display: inline;
+}
+#home-sec img {
+  width: 285px;
+  height: 255px;
+  margin: 3px 1px;
+  padding: 60px 115px;
+  display: inline;
+}
+
+.btn-home {
+  margin: 30px 30px;
+}
+.btn-home a {
+  text-decoration: none;
+  padding: 13px 35px;
+  font-size: 1rem;
+  color: black;
+  border: 2px solid black;
+  margin: 15px;
+  border-radius: 10px;
+}
+
+.btn-home a:first-child {
+  background-color: red;
+  color: white;
+}
+.btn-home a:nth-child(2) {
+  color: red;
+}
+
+.btn-home a:first-child:hover {
+  background-color: white;
+  color: red;
+}
+.btn-home a:nth-child(2):hover {
+  background-color: red;
+  color: white;
+}
+/* Section: Home intro */
+#home-intro {
+  padding: 72px 60px;
+  display: flex;
+  background-color: aliceblue;
+}
+#home-intro h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: red;
+  display: inline;
+}
+#home-intro h1 span {
+  font-size: 4rem;
+  font-weight: bold;
+  color: red;
+  display: inline;
+}
+
+.col-right-intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.col-right-intro p {
+  font-size: 1rem;
+  padding: 10px 143px;
+}
+.col-right-intro a {
+  text-decoration: none;
+  padding: 9px 30px;
+  font-size: 1rem;
+  border: 2px solid red;
+  background-color: red;
+  border-radius: 21px;
+  color: white;
+  margin: 13px;
+}
+
+/* Section: Get started in three steps */
+
+#home-get-start-sec {
+  display: flex;
+  flex-direction: row-reverse;
+  /* background-color: #f8f8f8; */
+}
+#home-get-start-sec .container h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 16px 10px;
+}
+.img-center {
+  width: 285px;
+  height: 255px;
+  margin: 3px 1px;
+  padding: 100px 115px;
+  display: inline;
+}
+#container-step {
+  display: flex;
+  flex-direction: column;
+}
+.steps-listen-info {
+  display: flex;
+  flex-direction: initial;
+  padding: 15px 117px;
+}
+
+/* section:footer */
+
+#footer-section {
+  display: flex;
+  padding: 9px;
+  background: aliceblue;
+  justify-content: space-between;
+}
+.footer-about img {
+  width: 99px;
+  height: 55px;
+  margin: 3px 11px;
+  padding: 5px 74px;
+}
+.footer-about p {
+  font-size: 1rem;
+  padding: 10px 45px;
+  margin: 1px 37px;
+}
+
+/* footer-services */
+.footer-our h2 {
+  font-size: 1.5rem;
+  padding: 10px;
+}
+.footer-our li {
+  list-style: none;
+  padding: 5px;
+  margin-top: 18px;
+}
+.footer-our li a {
+  text-decoration: none;
+  color: black;
+}
+.footer-our li a:hover {
+  color: #de3030;
+}
+/* footer-contact */
+.footer-contact {
+  padding: 10px 70px;
+}
+.footer-contact h1 {
+  font-size: 1.5rem;
+  padding: 10px;
+}
+.item input {
+  border: 2px solid black;
+  border-radius: 4px;
+  text-align: start;
+  padding: 6px 8px;
+  margin: 8px 0px;
+}
+.item label {
+  color: rgb(56, 54, 54);
+  display: block;
+  font-size: 1rem;
+  margin: 5px 1px;
+}
+.item textarea {
+  border: 2px solid black;
+  border-radius: 4px;
+  padding: 6px 8px;
+  margin: 8px 2px;
+}
+.sumbit-btn {
+  text-decoration: none;
+  padding: 5px 29px;
+  font-size: 1rem;
+  background-color: red;
+  color: white;
+  border: 2px solid black;
+  margin: 35px;
+  border-radius: 6px;
+}
+.sumbit-btn:hover {
+  background-color: rgb(236, 54, 54);
+}
+
+.copy-right {
+  background-color: rgb(66, 65, 65);
+  color: white;
+  padding: 15px 80px;
+}
+
+/* Utility-Classes */
+.h1-primary {
+  font-size: 1.4rem;
+  padding: 10px 10px;
+  color: red;
+}
+.center {
+  text-align: center;
+}
+p {
+  font-size: 1rem;
+  padding: 10px;
+}

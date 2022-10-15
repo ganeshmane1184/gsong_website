@@ -1,0 +1,78 @@
+/* body {
+  background-color: green;
+} */
+
+/* Navigation Bar:  */
+#navbar {
+  flex-direction: column;
+  padding: 20px 1px;
+}
+/* Navigation Bar: social icons  */
+#social-icons a i {
+  margin: 20px 10px;
+}
+
+/* Home Music Info */
+#home-intro {
+  padding: 50px 57px;
+}
+
+.home-container h1 {
+  color: black;
+  font-size: 1.5rem;
+  padding: 16px 24px;
+  display: inline-block;
+  margin-left: 26px;
+  margin-top: 37px;
+}
+
+.home-container p {
+  font-size: 1rem;
+  padding: 10px 35px;
+}
+
+#home-sec img {
+  width: 165px;
+  height: 151px;
+  padding: 60px 52px;
+}
+
+/* Section: Home intro */
+.col-right-intro p {
+  font-size: 1rem;
+  padding: 10px 90px;
+}
+
+/* Section: Get started in three steps */
+#home-get-start-sec {
+  flex-direction: column;
+  /* background-color: #f8f8f8; */
+}
+.container {
+  margin-top: 39px;
+}
+
+.img-center {
+  width: 286px;
+  height: 255px;
+  padding: 60px 223px;
+}
+
+/* section:footer */
+.footer-about img {
+  width: 99px;
+  height: 55px;
+  margin: 3px 11px;
+}
+
+.footer-about p {
+  padding: 10px 32px;
+  margin: 1px 21px;
+}
+
+/* footer-services */
+.footer-our h2 {
+  width: 99px;
+  height: 55px;
+  margin: 28px 11px;
+}
